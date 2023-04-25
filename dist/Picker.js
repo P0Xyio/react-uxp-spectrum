@@ -7,16 +7,16 @@ import { SpectrumComponetDefaults } from './common';
  *
  * @example
  * ```jsx
- * <Spectrum.Dropdown>
+ * <Spectrum.Picker>
  *   <Spectrum.Menu slot="options">
  *     <Spectrum.MenuItem>Deselect</Spectrum.MenuItem>
  *     <Spectrum.MenuDivider></Spectrum.MenuDivider>
  *     <Spectrum.MenuItem disabled>Make work path</Spectrum.MenuItem>
  *   </Spectrum.Menu>
- * </Spectrum.Dropdown>
+ * </Spectrum.Picker>
  * ```
  */
-export default function Dropdown(props) {
+export default function Picker(props) {
     var ref = useRef(null);
     useEffect(function () {
         var _a;
@@ -27,6 +27,6 @@ export default function Dropdown(props) {
             (_a = ref.current) === null || _a === void 0 ? void 0 : _a.removeEventListener('change', dispatchChange);
         };
     }, [props.onChange]);
-    return (React.createElement("sp-dropdown", { ref: ref, "class": props.className, disabled: props.disabled || undefined, invalid: props.invalid || undefined, quiet: props.quiet || undefined, placeholder: props.placeholder, selectedIndex: props.selectedIndex, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props === null || props === void 0 ? void 0 : props.children));
+    return (React.createElement("sp-picker", { ref: ref, class: props.className, disabled: props.disabled || undefined, invalid: props.invalid || undefined, quiet: props.quiet || undefined, placeholder: props.placeholder, selectedIndex: props.selectedIndex, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props === null || props === void 0 ? void 0 : props.children));
 }
-//# sourceMappingURL=Dropdown.js.map
+//# sourceMappingURL=Picker.js.map

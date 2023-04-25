@@ -7,7 +7,7 @@ declare namespace Spectrum {
         }) | null;
     }
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     onChange?: (e: Spectrum.DropdownEvent) => void;
     className?: string;
@@ -21,7 +21,7 @@ declare type Props = {
 declare global {
     namespace JSX {
         interface IntrinsicElements {
-            'sp-dropdown': {
+            'sp-picker': {
                 children?: React.ReactNode;
                 ref?: React.RefObject<HTMLElement>;
                 class?: string;
@@ -43,14 +43,14 @@ declare global {
  *
  * @example
  * ```jsx
- * <Spectrum.Dropdown>
+ * <Spectrum.Picker>
  *   <Spectrum.Menu slot="options">
  *     <Spectrum.MenuItem>Deselect</Spectrum.MenuItem>
  *     <Spectrum.MenuDivider></Spectrum.MenuDivider>
  *     <Spectrum.MenuItem disabled>Make work path</Spectrum.MenuItem>
  *   </Spectrum.Menu>
- * </Spectrum.Dropdown>
+ * </Spectrum.Picker>
  * ```
  */
-export default function Dropdown(props: Props): JSX.Element;
+export default function Picker(props: Props): JSX.Element;
 export {};

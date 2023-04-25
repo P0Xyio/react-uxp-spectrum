@@ -5,7 +5,7 @@ declare namespace Spectrum {
         readonly target: (EventTarget & unknown) | null;
     }
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     onClick?: (e: Spectrum.ActionButtonEvent) => void;
     className?: string;

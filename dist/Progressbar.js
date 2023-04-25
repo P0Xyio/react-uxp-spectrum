@@ -11,6 +11,6 @@ import { SpectrumComponetDefaults } from './common';
  * ```
  */
 export default function Progressbar(props) {
-    return (React.createElement("sp-progressbar", { "class": props.className, min: props.min, max: props.max, "show-value": props.showValue || undefined, value: props.value, "value-label": props.valueLabel, variant: props.variant, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props.children));
+    return (React.createElement("sp-progressbar", { class: props.className, min: props.min, max: props.max, "show-value": props.showValue || undefined, value: props.value, "value-label": props.valueLabel, variant: props.variant, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props.children));
 }
 //# sourceMappingURL=Progressbar.js.map

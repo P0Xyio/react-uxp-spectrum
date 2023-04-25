@@ -19,6 +19,6 @@ export default function Link(props) {
             (_a = ref.current) === null || _a === void 0 ? void 0 : _a.removeEventListener('click', dispatchClick);
         };
     }, [props.onClick]);
-    return (React.createElement("sp-link", { ref: ref, "class": props.className, href: props.href, quiet: props.quiet || undefined, variant: props.variant, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props.children));
+    return (React.createElement("sp-link", { ref: ref, class: props.className, href: props.href, quiet: props.quiet || undefined, variant: props.variant, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props.children));
 }
 //# sourceMappingURL=Link.js.map

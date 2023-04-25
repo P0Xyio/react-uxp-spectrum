@@ -6,7 +6,7 @@ declare namespace Spectrum {
         }) | null;
     }
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     onChange?: (e: Spectrum.RadioGroupEvent) => void;
     className?: string;

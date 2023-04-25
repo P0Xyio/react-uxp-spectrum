@@ -8,7 +8,7 @@ import ActionButton from './ActionButton';
 import Button from './Button';
 import Checkbox from './Checkbox';
 import Divider from './Divider';
-import Dropdown from './Dropdown';
+import Picker from './Picker';
 import Icon from './Icon';
 import Link from './Link';
 import Menu from './Menu';
@@ -30,7 +30,7 @@ var Spectrum = {
     Button: Button,
     Checkbox: Checkbox,
     Divider: Divider,
-    Dropdown: Dropdown,
+    Picker: Picker,
     Icon: Icon,
     Link: Link,
     Menu: Menu,
@@ -42,8 +42,8 @@ var Spectrum = {
     Slider: Slider,
     Textarea: Textarea,
     Textfield: Textfield,
-    SpectrumComponetDefaults: SpectrumComponetDefaults
+    SpectrumComponetDefaults: SpectrumComponetDefaults,
 };
-export { Body, Detail, Heading, Label, ActionButton, Button, Checkbox, Divider, Dropdown, Icon, Link, Progressbar, Radio, RadioGroup, Slider, Textarea, Textfield, SpectrumComponetDefaults, };
+export { Body, Detail, Heading, Label, ActionButton, Button, Checkbox, Divider, Picker, Icon, Link, Progressbar, Radio, RadioGroup, Slider, Textarea, Textfield, SpectrumComponetDefaults, };
 export default Spectrum;
 //# sourceMappingURL=index.js.map

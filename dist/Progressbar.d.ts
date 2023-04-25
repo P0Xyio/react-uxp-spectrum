@@ -4,7 +4,7 @@ declare namespace Spectrum {
     type ProgressbarVariant = 'overBackground';
     type ProgressbarSize = 'small';
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     className?: string;
     min?: number;

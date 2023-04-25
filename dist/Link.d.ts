@@ -3,7 +3,7 @@ import { SpectrumComponentSize } from './common';
 declare namespace Spectrum {
     type LinkVariant = 'overBackground';
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     onClick?: (e: MouseEvent) => void;
     className?: string;

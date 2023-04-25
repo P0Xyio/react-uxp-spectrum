@@ -6,7 +6,7 @@ import ActionButton from './ActionButton';
 import Button from './Button';
 import Checkbox from './Checkbox';
 import Divider from './Divider';
-import Dropdown from './Dropdown';
+import Picker from './Picker';
 import Icon from './Icon';
 import Link from './Link';
 import Menu from './Menu';
@@ -28,7 +28,7 @@ declare const Spectrum: {
     Button: typeof Button;
     Checkbox: typeof Checkbox;
     Divider: typeof Divider;
-    Dropdown: typeof Dropdown;
+    Picker: typeof Picker;
     Icon: typeof Icon;
     Link: typeof Link;
     Menu: typeof Menu;
@@ -42,5 +42,5 @@ declare const Spectrum: {
     Textfield: typeof Textfield;
     SpectrumComponetDefaults: typeof SpectrumComponetDefaults;
 };
-export { Body, Detail, Heading, Label, ActionButton, Button, Checkbox, Divider, Dropdown, Icon, Link, Progressbar, Radio, RadioGroup, Slider, Textarea, Textfield, SpectrumComponetDefaults, };
+export { Body, Detail, Heading, Label, ActionButton, Button, Checkbox, Divider, Picker, Icon, Link, Progressbar, Radio, RadioGroup, Slider, Textarea, Textfield, SpectrumComponetDefaults, };
 export default Spectrum;

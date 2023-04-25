@@ -2,7 +2,7 @@
 declare namespace Spectrum {
     type DividerSize = 'small' | 'medium' | 'large';
 }
-declare type Props = {
+type Props = {
     className?: string;
     size?: Spectrum.DividerSize;
 };

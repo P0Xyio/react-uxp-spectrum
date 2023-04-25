@@ -7,7 +7,7 @@ declare namespace Spectrum {
         }) | null;
     }
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     onClick?: (e: Spectrum.MenuItemEvent) => void;
     className?: string;

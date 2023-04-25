@@ -3,7 +3,7 @@ import { SpectrumComponentSize } from './common';
 declare namespace Spectrum {
     type LabelSlot = 'label';
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     className?: string;
     slot?: Spectrum.LabelSlot;

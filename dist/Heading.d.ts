@@ -5,7 +5,7 @@ declare namespace Spectrum {
     type HeadingSize = 'XXS' | 'XS' | 'S' | 'M' | 'L' | 'XL' | 'XXL' | 'XXXL';
     type HeadingWeight = 'light' | 'default' | 'heavy';
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     className?: string;
     classification?: Spectrum.HeadingClassification;

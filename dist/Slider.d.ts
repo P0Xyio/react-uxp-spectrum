@@ -9,7 +9,7 @@ declare namespace Spectrum {
         }) | null;
     }
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     onChange?: (e: Spectrum.SliderEvent) => void;
     onInput?: (e: Spectrum.SliderEvent) => void;

@@ -4,7 +4,7 @@ declare namespace Spectrum {
     type BodyClassification = 'serif' | 'sans serif';
     type BodyScript = 'latin' | 'han' | 'arabic' | 'hebrew';
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     className?: string;
     classification?: Spectrum.BodyClassification;

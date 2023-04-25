@@ -8,7 +8,7 @@ declare namespace Spectrum {
         }) | null;
     }
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     onChange?: (e: Spectrum.TextfieldEvent) => void;
     onInput?: (e: Spectrum.TextfieldEvent) => void;

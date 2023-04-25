@@ -19,6 +19,6 @@ export default function Radio(props) {
             (_a = ref.current) === null || _a === void 0 ? void 0 : _a.removeEventListener('input', dispatchInput);
         };
     }, [props.onClick]);
-    return (React.createElement("sp-radio", { ref: ref, "class": props === null || props === void 0 ? void 0 : props.className, checked: (props === null || props === void 0 ? void 0 : props.checked) || undefined, disabled: (props === null || props === void 0 ? void 0 : props.disabled) || undefined, emphasized: (props === null || props === void 0 ? void 0 : props.emphasized) || undefined, invalid: props.invalid || undefined, value: props.value, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props === null || props === void 0 ? void 0 : props.children));
+    return (React.createElement("sp-radio", { ref: ref, class: props === null || props === void 0 ? void 0 : props.className, checked: (props === null || props === void 0 ? void 0 : props.checked) || undefined, disabled: (props === null || props === void 0 ? void 0 : props.disabled) || undefined, emphasized: (props === null || props === void 0 ? void 0 : props.emphasized) || undefined, invalid: props.invalid || undefined, value: props.value, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props === null || props === void 0 ? void 0 : props.children));
 }
 //# sourceMappingURL=Radio.js.map

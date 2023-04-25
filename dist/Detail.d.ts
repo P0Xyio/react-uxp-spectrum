@@ -4,7 +4,7 @@ declare namespace Spectrum {
     type DetailScript = 'latin' | 'han' | 'arabic' | 'hebrew';
     type DetailWeight = 'light' | 'default';
 }
-declare type Props = {
+type Props = {
     children?: React.ReactNode;
     className?: string;
     script?: Spectrum.DetailScript;

@@ -12,6 +12,6 @@ import { SpectrumComponetDefaults } from './common';
  * ```
  */
 export default function Label(props) {
-    return (React.createElement("sp-label", { "class": props === null || props === void 0 ? void 0 : props.className, slot: (props === null || props === void 0 ? void 0 : props.slot) || undefined, isrequired: (props === null || props === void 0 ? void 0 : props.isRequired) || undefined, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props === null || props === void 0 ? void 0 : props.children));
+    return (React.createElement("sp-label", { class: props === null || props === void 0 ? void 0 : props.className, slot: (props === null || props === void 0 ? void 0 : props.slot) || undefined, isrequired: (props === null || props === void 0 ? void 0 : props.isRequired) || undefined, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props === null || props === void 0 ? void 0 : props.children));
 }
 //# sourceMappingURL=Label.js.map

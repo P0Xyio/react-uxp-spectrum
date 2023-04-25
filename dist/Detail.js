@@ -9,6 +9,6 @@ import { SpectrumComponetDefaults } from './common';
  * ```
  */
 export default function Detail(props) {
-    return (React.createElement("sp-detail", { "class": props === null || props === void 0 ? void 0 : props.className, script: props === null || props === void 0 ? void 0 : props.script, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize, weight: props === null || props === void 0 ? void 0 : props.weight }, props === null || props === void 0 ? void 0 : props.children));
+    return (React.createElement("sp-detail", { class: props === null || props === void 0 ? void 0 : props.className, script: props === null || props === void 0 ? void 0 : props.script, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize, weight: props === null || props === void 0 ? void 0 : props.weight }, props === null || props === void 0 ? void 0 : props.children));
 }
 //# sourceMappingURL=Detail.js.map
