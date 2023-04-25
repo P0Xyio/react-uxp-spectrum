@@ -9,6 +9,7 @@ namespace Spectrum {
 }
 
 type Props = {
+  id?: string;
   children?: React.ReactNode;
   onChange?: (e: Spectrum.TextfieldEvent) => void;
   onInput?: (e: Spectrum.TextfieldEvent) => void;
@@ -27,6 +28,7 @@ declare global {
   namespace JSX {
     interface IntrinsicElements {
       'sp-textfield': {
+        id?: string;
         children?: React.ReactNode;
         ref?: React.RefObject<HTMLElement>;
         class?: string;
@@ -79,6 +81,7 @@ export default function Textfield(props: Props) {
 
   return (
     <sp-textfield
+      id={props.id || undefined}
       ref={ref}
       class={props.className}
       disabled={props.disabled || undefined}
