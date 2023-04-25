@@ -14,6 +14,7 @@ namespace Spectrum {
 }
 
 type Props = {
+  id?: string;
   children?: React.ReactNode;
   onClick?: (e: Spectrum.ButtonEvent) => void;
   className?: string;
@@ -27,6 +28,7 @@ declare global {
   namespace JSX {
     interface IntrinsicElements {
       'sp-button': {
+        id?: string;
         children?: React.ReactNode;
         ref?: React.RefObject<HTMLElement>;
         class?: string;
@@ -65,6 +67,7 @@ export default function Button(props: Props) {
 
   return (
     <sp-button
+      id={props.id || undefined}
       ref={ref}
       class={props.className}
       disabled={props.disabled || undefined}
