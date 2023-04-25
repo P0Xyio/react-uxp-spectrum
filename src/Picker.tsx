@@ -8,6 +8,7 @@ namespace Spectrum {
 }
 
 type Props = {
+  id?: string;
   children?: React.ReactNode;
   onChange?: (e: Spectrum.DropdownEvent) => void;
   className?: string;
@@ -23,6 +24,7 @@ declare global {
   namespace JSX {
     interface IntrinsicElements {
       'sp-picker': {
+        id?: string;
         children?: React.ReactNode;
         ref?: React.RefObject<HTMLElement>;
         class?: string;
@@ -69,6 +71,7 @@ export default function Picker(props: Props) {
 
   return (
     <sp-picker
+      id={props.id || undefined}
       ref={ref}
       class={props.className}
       disabled={props.disabled || undefined}
