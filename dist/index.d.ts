@@ -42,5 +42,5 @@ declare const Spectrum: {
     Textfield: typeof Textfield;
     SpectrumComponetDefaults: typeof SpectrumComponetDefaults;
 };
-export { Body, Detail, Heading, Label, ActionButton, Button, Checkbox, Divider, Picker, Icon, Link, Progressbar, Radio, RadioGroup, Slider, Textarea, Textfield, SpectrumComponetDefaults, };
+export { Body, Detail, Heading, Label, ActionButton, Button, Checkbox, Divider, Picker, Icon, Link, Menu, MenuDivider, MenuItem, Progressbar, Radio, RadioGroup, Slider, Textarea, Textfield, SpectrumComponetDefaults, };
 export default Spectrum;
