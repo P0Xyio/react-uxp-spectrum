@@ -15,6 +15,7 @@ type Props = {
     quiet?: boolean;
     variant?: Spectrum.ButtonVariant;
     size?: SpectrumComponentSize;
+    style?: React.CSSProperties;
 };
 declare global {
     namespace JSX {
@@ -28,6 +29,7 @@ declare global {
                 quiet?: boolean;
                 variant?: Spectrum.ButtonVariant;
                 size?: SpectrumComponentSize;
+                style?: React.CSSProperties;
                 onClick?: (e?: any) => void;
             };
         }

@@ -22,6 +22,7 @@ type Props = {
   quiet?: boolean;
   variant?: Spectrum.ButtonVariant;
   size?: SpectrumComponentSize;
+  style?: React.CSSProperties;
 };
 
 declare global {
@@ -36,6 +37,7 @@ declare global {
         quiet?: boolean;
         variant?: Spectrum.ButtonVariant;
         size?: SpectrumComponentSize;
+        style?: React.CSSProperties;
         onClick?: (e?: any) => void;
       };
     }
@@ -73,6 +75,7 @@ export default function Button(props: Props) {
       disabled={props.disabled || undefined}
       quiet={props.quiet || undefined}
       variant={variant}
+      style={props.style || undefined}
       size={props?.size || SpectrumComponetDefaults.defaultSize}
     >
       {props.children}
