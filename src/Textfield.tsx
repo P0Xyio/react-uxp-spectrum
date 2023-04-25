@@ -19,7 +19,7 @@ type Props = {
   quiet?: boolean;
   type?: Spectrum.TextfieldType;
   valid?: boolean;
-  value?: string;
+  value?: string | number;
   size?: SpectrumComponentSize;
 };
 
