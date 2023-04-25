@@ -8,6 +8,7 @@ declare namespace Spectrum {
     }
 }
 type Props = {
+    id?: string;
     children?: React.ReactNode;
     onChange?: (e: Spectrum.DropdownEvent) => void;
     className?: string;
@@ -22,6 +23,7 @@ declare global {
     namespace JSX {
         interface IntrinsicElements {
             'sp-picker': {
+                id?: string;
                 children?: React.ReactNode;
                 ref?: React.RefObject<HTMLElement>;
                 class?: string;

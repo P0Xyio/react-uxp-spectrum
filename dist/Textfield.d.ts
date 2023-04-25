@@ -9,6 +9,7 @@ declare namespace Spectrum {
     }
 }
 type Props = {
+    id?: string;
     children?: React.ReactNode;
     onChange?: (e: Spectrum.TextfieldEvent) => void;
     onInput?: (e: Spectrum.TextfieldEvent) => void;
@@ -19,13 +20,14 @@ type Props = {
     quiet?: boolean;
     type?: Spectrum.TextfieldType;
     valid?: boolean;
-    value?: string;
+    value?: string | number;
     size?: SpectrumComponentSize;
 };
 declare global {
     namespace JSX {
         interface IntrinsicElements {
             'sp-textfield': {
+                id?: string;
                 children?: React.ReactNode;
                 ref?: React.RefObject<HTMLElement>;
                 class?: string;
@@ -37,7 +39,7 @@ declare global {
                 quiet?: boolean;
                 type?: Spectrum.TextfieldType;
                 valid?: boolean;
-                value?: string;
+                value?: string | number;
                 size?: SpectrumComponentSize;
             };
         }
