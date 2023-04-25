@@ -22,7 +22,7 @@ type Props = {
 declare global {
   namespace JSX {
     interface IntrinsicElements {
-      'sp-dropdown': {
+      'sp-picker': {
         children?: React.ReactNode;
         ref?: React.RefObject<HTMLElement>;
         class?: string;
@@ -45,16 +45,16 @@ declare global {
  *
  * @example
  * ```jsx
- * <Spectrum.Dropdown>
+ * <Spectrum.Picker>
  *   <Spectrum.Menu slot="options">
  *     <Spectrum.MenuItem>Deselect</Spectrum.MenuItem>
  *     <Spectrum.MenuDivider></Spectrum.MenuDivider>
  *     <Spectrum.MenuItem disabled>Make work path</Spectrum.MenuItem>
  *   </Spectrum.Menu>
- * </Spectrum.Dropdown>
+ * </Spectrum.Picker>
  * ```
  */
-export default function Dropdown(props: Props) {
+export default function Picker(props: Props) {
   const ref = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -68,7 +68,7 @@ export default function Dropdown(props: Props) {
   }, [props.onChange]);
 
   return (
-    <sp-dropdown
+    <sp-picker
       ref={ref}
       class={props.className}
       disabled={props.disabled || undefined}
@@ -79,6 +79,6 @@ export default function Dropdown(props: Props) {
       size={props?.size || SpectrumComponetDefaults.defaultSize}
     >
       {props?.children}
-    </sp-dropdown>
+    </sp-picker>
   );
 }

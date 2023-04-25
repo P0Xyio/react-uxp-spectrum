@@ -37,7 +37,7 @@ declare global {
  * Renders a menu with menu items. Inside the {@link Spectrum.Menu}, a series of
  * {@link Spectrum.MenuItem} or {@link Spectrum.MenuDivider} elements may exist.
  *
- * @remarks {@link Spectrum.MenuDivider} elements will only render inside an {@link Spectrum.Dropdown}.
+ * @remarks {@link Spectrum.MenuDivider} elements will only render inside an {@link Spectrum.Picker}.
  *
  * @example
  * ```jsx

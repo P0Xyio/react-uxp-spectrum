@@ -8,7 +8,7 @@ import ActionButton from './ActionButton';
 import Button from './Button';
 import Checkbox from './Checkbox';
 import Divider from './Divider';
-import Dropdown from './Dropdown';
+import Picker from './Picker';
 import Icon from './Icon';
 import Link from './Link';
 import Menu from './Menu';
@@ -31,7 +31,7 @@ const Spectrum = {
   Button,
   Checkbox,
   Divider,
-  Dropdown,
+  Picker,
   Icon,
   Link,
   Menu,
@@ -55,7 +55,7 @@ export {
   Button,
   Checkbox,
   Divider,
-  Dropdown,
+  Picker,
   Icon,
   Link,
   Progressbar,
