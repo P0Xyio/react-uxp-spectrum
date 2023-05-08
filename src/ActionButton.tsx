@@ -15,6 +15,7 @@ type Props = {
   quiet?: boolean;
   size?: SpectrumComponentSize;
   style?: React.CSSProperties;
+  title?: string;
 };
 
 declare global {
@@ -28,6 +29,7 @@ declare global {
         quiet?: boolean;
         size?: SpectrumComponentSize;
         style?: React.CSSProperties;
+        title?: string;
       };
     }
   }
@@ -64,6 +66,7 @@ export default function ActionButton(props: Props) {
       disabled={props?.disabled || undefined}
       quiet={props?.quiet || undefined}
       style={props?.style || undefined}
+      title={props?.title || undefined}
       size={props?.size || SpectrumComponetDefaults.defaultSize}
     >
       {props?.children}

@@ -22,6 +22,6 @@ export default function ActionButton(props) {
             (_a = ref.current) === null || _a === void 0 ? void 0 : _a.removeEventListener('click', dispatchClick);
         };
     }, [props.onClick]);
-    return (React.createElement("sp-action-button", { ref: ref, class: props === null || props === void 0 ? void 0 : props.className, disabled: (props === null || props === void 0 ? void 0 : props.disabled) || undefined, quiet: (props === null || props === void 0 ? void 0 : props.quiet) || undefined, style: (props === null || props === void 0 ? void 0 : props.style) || undefined, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props === null || props === void 0 ? void 0 : props.children));
+    return (React.createElement("sp-action-button", { ref: ref, class: props === null || props === void 0 ? void 0 : props.className, disabled: (props === null || props === void 0 ? void 0 : props.disabled) || undefined, quiet: (props === null || props === void 0 ? void 0 : props.quiet) || undefined, style: (props === null || props === void 0 ? void 0 : props.style) || undefined, title: (props === null || props === void 0 ? void 0 : props.title) || undefined, size: (props === null || props === void 0 ? void 0 : props.size) || SpectrumComponetDefaults.defaultSize }, props === null || props === void 0 ? void 0 : props.children));
 }
 //# sourceMappingURL=ActionButton.js.map

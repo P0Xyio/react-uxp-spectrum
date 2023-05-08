@@ -13,6 +13,7 @@ type Props = {
     quiet?: boolean;
     size?: SpectrumComponentSize;
     style?: React.CSSProperties;
+    title?: string;
 };
 declare global {
     namespace JSX {
@@ -25,6 +26,7 @@ declare global {
                 quiet?: boolean;
                 size?: SpectrumComponentSize;
                 style?: React.CSSProperties;
+                title?: string;
             };
         }
     }
